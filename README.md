@@ -46,7 +46,7 @@ App
   "postcss": {
     "parser": "sugarss",
     "map": false,
-    "from": "/path/to/src.sss",
+    "from": "/path/to/src.css",
     "to": "/path/to/dest.css",
     "plugins": {
       "postcss-plugin": {}
@@ -75,7 +75,7 @@ App
 {
   "parser": "sugarss",
   "map": false,
-  "from": "/path/to/src.sss",
+  "from": "/path/to/src.css",
   "to": "/path/to/dest.css",
   "plugins": {
     "postcss-plugin": {}
@@ -87,7 +87,7 @@ App
 ```yaml
 parser: sugarss
 map: false
-from: "/path/to/src.sss"
+from: "/path/to/src.css"
 to: "/path/to/dest.css"
 plugins:
   postcss-plugin: {}
@@ -112,7 +112,7 @@ You can export the config as an `{Object}`
 module.exports = {
   parser: 'sugarss',
   map: false,
-  from: '/path/to/src.sss',
+  from: '/path/to/src.css',
   to: '/path/to/dest.css',
   plugins: {
     'postcss-plugin': {}
